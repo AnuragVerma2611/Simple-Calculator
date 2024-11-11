@@ -1,0 +1,26 @@
+print("Calculator")
+print("1: Addition" )
+print ("2: Subtraction")
+print ("3:Multiplication")
+print("4: Division")
+
+x=int(input("Which number would you like to choose : "))
+
+if(x==1):
+        a=int(input ("Enter the number 1 :"))
+        b=int(input("Enter the number 2 : "))
+        print("Sum is ", a+b )
+elif(x==2):
+     a=int(input("Enter the number 1 : "))
+     b=int(input ("Enter the number 2 : "))
+     print("Difference is ",a-b)
+elif(x==3):
+     a=int(input ("Enter the number 1:"))
+     b=int(input("Enter the number2:"))
+     print("Multiplication is ",a*b)
+elif(x==4):
+     a=int(input ("Enter the number 1:"))
+     b=int(input("Enter the number 2 :"))
+     print("Division is",a/b)
+else:
+	print("Invalid number")
